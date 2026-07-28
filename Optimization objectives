@@ -1,0 +1,27 @@
+Optimization Objectives
+
+The optimization process simultaneously considers two major objectives.
+
+1. Real Power Loss Minimization
+
+The objective is to reduce electrical losses occurring in distribution lines.
+
+Benefits include:
+
+Improved system efficiency
+Reduced energy wastage
+Lower operating cost
+Better utilization of electrical infrastructure
+
+2. Voltage Profile Improvement
+
+The voltage at each bus should remain close to the nominal value.
+
+Benefits include:
+
+Improved power quality
+Enhanced voltage stability
+Better equipment performance
+Increased system reliability
+
+Both objectives are combined using a weighted multi-objective optimization function while satisfying all operational constraints.
