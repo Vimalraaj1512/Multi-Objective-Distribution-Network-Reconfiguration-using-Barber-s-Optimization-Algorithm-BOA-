@@ -1,0 +1,9 @@
+Project Overview
+
+This project presents a Multi-Objective Distribution Network Reconfiguration (DNR) approach using the Barber Optimization Algorithm (BOA). The objective is to improve the operational efficiency of radial distribution systems by simultaneously:
+
+Reducing real power losses
+Improving bus voltage profile
+Maintaining network radiality
+
+The proposed approach is evaluated on the IEEE 33-Bus, IEEE 69-Bus, and IEEE 118-Bus benchmark distribution systems and compared with several well-known optimization techniques. The paper reports that BOA provides competitive loss reduction, improved voltage stability, and faster convergence across these benchmark systems.
