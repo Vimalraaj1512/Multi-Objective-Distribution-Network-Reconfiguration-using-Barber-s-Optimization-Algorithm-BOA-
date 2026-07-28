@@ -1,3 +1,66 @@
+
+
+### Added a dedicated **Methodology** section that includes:
+
+1. **Network Initialization**
+
+   * Describes the input of IEEE distribution system data, including bus information, branch parameters, switch status, and operational constraints.
+
+2. **Initial Population Generation**
+
+   * Explains how the Barber Optimization Algorithm generates multiple feasible radial switch configurations.
+
+3. **Load Flow Analysis**
+
+   * Details the evaluation of each candidate solution using load flow analysis to calculate:
+
+     * Total real power loss
+     * Bus voltage magnitude
+     * Voltage deviation
+
+4. **Fitness Evaluation**
+
+   * Introduces the weighted multi-objective fitness function combining:
+
+     * Real power loss
+     * Voltage deviation
+   * Explains that lower fitness values represent better solutions.
+
+5. **Barber Optimization Process**
+
+   * Describes the exploration and exploitation mechanisms inspired by barber-customer interactions for improving candidate solutions.
+
+6. **Constraint Verification**
+
+   * Documents validation against operational constraints, including:
+
+     * Radiality
+     * Bus voltage limits
+     * Branch current limits
+     * Power balance
+   * Notes that infeasible solutions are penalized.
+
+7. **Convergence**
+
+   * Explains the stopping criteria based on maximum iterations or negligible improvement.
+
+8. **Final Solution**
+
+   * Describes the selection of the optimal switch configuration that minimizes power loss while improving the voltage profile.
+
+## Benefits
+
+* Improves documentation clarity and readability.
+* Provides a structured understanding of the optimization workflow.
+* Makes the repository more accessible for students, researchers, and new contributors.
+* Aligns the README with academic and research documentation standards.
+* Enhances the overall professionalism of the project.
+
+## Testing
+
+* Verified Markdown formatting and section hierarchy.
+* Reviewed the methodology for logical flow and consistency.
+* Confirmed that this update is documentation-only and does not modify the project's source code or algorithm implementation.
 The proposed methodology follows a systematic optimization process.
 
 Step 1: Network Initialization
