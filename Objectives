@@ -1,0 +1,7 @@
+The main objectives of this research are:
+•	To minimize the total real power losses in electrical distribution systems. 
+•	To improve the voltage profile of all buses in the distribution network. 
+•	To maintain the radial topology of the network after reconfiguration. 
+•	To satisfy all operational constraints such as voltage limits, current limits, and power balance. 
+•	To evaluate the effectiveness of the Barber Optimization Algorithm on different IEEE benchmark systems. 
+•	To compare the performance of BOA with existing state-of-the-art optimization techniques.
