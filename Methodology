@@ -1,0 +1,37 @@
+The proposed methodology follows a systematic optimization process.
+
+Step 1: Network Initialization
+The IEEE distribution system data, including bus information, branch parameters, switch status, and operational constraints, are provided as input.
+
+Step 2: Initial Population Generation
+The Barber Optimization Algorithm randomly generates multiple feasible switch configurations while ensuring that each network remains radial.
+
+Step 3: Load Flow Analysis
+Each candidate solution is evaluated using load flow analysis to determine:
+•	Total real power loss 
+•	Bus voltage magnitude 
+•	Voltage deviation 
+
+Step 4: Fitness Evaluation
+A weighted multi-objective fitness function is calculated by combining:
+•	Real power loss 
+•	Voltage deviation 
+Lower fitness values indicate better solutions.
+
+Step 5: Barber Optimization Process
+BOA improves candidate solutions through exploration and exploitation mechanisms inspired by barber-customer interactions.
+The algorithm continuously updates switch configurations to search for the global optimum.
+
+Step 6: Constraint Verification
+Each updated solution is checked against operational constraints:
+•	Radiality 
+•	Bus voltage limits 
+•	Branch current limits 
+•	Power balance 
+Invalid solutions receive penalty values.
+
+Step 7: Convergence
+The optimization process continues until the maximum number of iterations is reached or the improvement becomes negligible.
+
+Step 8: Final Solution
+The algorithm returns the optimal switch configuration with minimum power loss and improved voltage profile.
