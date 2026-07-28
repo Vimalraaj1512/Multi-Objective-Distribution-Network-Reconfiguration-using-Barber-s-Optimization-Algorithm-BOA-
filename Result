@@ -1,0 +1,8 @@
+The proposed Barber Optimization Algorithm demonstrates excellent optimization performance across all benchmark systems.
+Major Outcomes
+•	Significant reduction in real power losses. 
+•	Improved minimum bus voltage. 
+•	Faster convergence compared with conventional metaheuristic algorithms. 
+•	Better scalability for large distribution systems. 
+•	Stable optimization performance across IEEE 33-, 69-, and 118-bus systems. 
+The comparative study confirms that BOA is a reliable optimization technique for Distribution Network Reconfiguration.
