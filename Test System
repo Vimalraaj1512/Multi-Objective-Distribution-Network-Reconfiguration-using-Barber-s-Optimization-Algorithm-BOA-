@@ -1,0 +1,18 @@
+The proposed methodology is validated using three standard IEEE benchmark distribution systems.
+
+IEEE 33-Bus Distribution System
+•	Small-scale radial distribution network 
+•	33 buses 
+•	Used for validating optimization performance 
+•	Suitable for comparing convergence characteristics 
+•	
+IEEE 69-Bus Distribution System
+•	Medium-scale benchmark system 
+•	More switching combinations 
+•	Used for evaluating robustness and optimization capability
+•	 
+IEEE 118-Bus Distribution System
+•	Large-scale practical distribution network 
+•	High computational complexity 
+•	Used to evaluate scalability and computational efficiency of BOA 
+These benchmark systems are widely used in power system research for evaluating Distribution Network Reconfiguration algorithms.
